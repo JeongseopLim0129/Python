@@ -1,4 +1,6 @@
 '''
+https://leelang7.github.io/python/ml/dl/jumptopython-codinglicenseexam/
+
 1. 문자열 바꾸기 다음과 같은 문자열이 있다.
 
 a:b:c:d

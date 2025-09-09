@@ -1,5 +1,7 @@
-# #위키 독스 점프 투 파이썬
-
+'''
+위키 독스 점프 투 파이썬
+https://docs.google.com/presentation/d/17UXm1UVtPfYhZ_UNInZBh4Izqx0dVDxz/edit?usp=sharing&ouid=107162547144128955683&rtpof=true&sd=true
+'''
 # #내장 함수
 
 # #표준 라이브러리

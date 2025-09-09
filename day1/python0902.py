@@ -1,3 +1,6 @@
+'''
+https://drive.google.com/drive/folders/1a4P85aQsDoKFsjfzEnoMba6Ivm-44KeI?usp=sharing
+'''
 #변수
 a = 10000
 b = 20000

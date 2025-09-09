@@ -1,4 +1,6 @@
 '''
+https://leelang7.github.io/python/ml/dl/jumptopython-3/
+
 Q1. 다음 코드의 결괏값은?
 
 a  = "Life is too short, you need python"

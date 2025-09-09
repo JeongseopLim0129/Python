@@ -110,7 +110,8 @@ else:
 finally:
     마지막으로 수행할 문장 (에러 여부 상관 없이 항상 수행되는 문장)
 '''
-
+num1 = 3
+num2 = 0
 try:
     result = num1 / num2
     print(f'연산 결과는 {result}입니다')
@@ -125,3 +126,59 @@ num2 가 정수 0 이라면 > 실행 결과 : 0 으로 나눌 수 없어요
 
 num2 가 문자열 '0' 이라면 > 실행 결과 : 값의 형태가 이상해요
 '''
+
+
+#모듈
+'''
+1) import 모듈
+2) from 모듈 import 변수, 함수 또는 클래스
+'''
+# goodjob.py
+# def say():
+#   print('참 잘했어요')
+
+# 새로운 파일
+# import goodjob
+# goodjob.say()
+# > 실행결과 : 참 잘했어요
+
+ #새로운 파일
+# import goodjob
+# from goodjob import say
+# say()
+# > 실행결과 : 참 잘했어요
+
+
+
+#random
+import random
+my_list = ['가위', '바위', '보']
+print(random.choice(my_list))
+# > 실행 결과
+# (1회차) 가위
+# (2회차) 바위
+# (3회차) 가위
+# (4회차) 보
+# ...
+
+
+
+#패키지
+# nadocoding (패키지)
+
+# goodjob.py (nadocoding패키지 안의 파일)
+# def say():
+# print('참 잘했어요')
+
+# goodbye.py (nadocoding패키지 안의 파일)
+# def bye():
+# print('또 만나요')
+
+# practice.py (새로운 파일)
+# from nadocoding import goodjob, goodbye
+# goodjob.say()
+# goodbye.bye()
+
+# > 실행 결과 :
+# 참 잘했어요
+# 또 만나요
