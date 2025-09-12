@@ -8,7 +8,7 @@ df = sns.load_dataset('tips')
 
 # 전체 데이터에서 처음 5개의 row 데이터 표시 (내용 확인)
 # 데이터에 대한 정보를 알고 싶은 경우, 주석을 풀어 확인
-df.head() 
+print(df.head())
 
 # x축에 해당되는 데이터로 total_bill series를 x_data으로 저장 
 x_data = df["total_bill"]
